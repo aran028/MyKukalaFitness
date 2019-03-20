@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context=".Fragment_Registro_Calorias">
+
+    <ImageButton
+        android:id="@+id/btnObtenerFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:baselineAligned="false"
+        android:src="@android:drawable/ic_menu_month" />
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="15dp"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:hint="@string/formato_fecha"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione Alimento"
+        android:layout_margin="8dp"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/cmbAlimentos"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="8dp"
+        android:prompt="@string/seleccione_un_alimento" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione Tipo"
+        android:layout_margin="8dp"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/cmbOpciones"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="38dp" />
+
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/formato_cantidad"
+        android:layout_margin="8dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAgregarAlimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
+        android:text="AGREGAR" />
+
+    <EditText
+        android:id="@+id/textCA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="Alimento seleccionado"
+        android:textSize="5sp" />
+
+    <EditText
+        android:id="@+id/edTextPemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/textTC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Tipo elegido"
+        android:textSize="12sp" />
+
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Kukala Fitness</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">My Kukala Fitness</string>
+    <string name="nav_header_subtitle">Contacto: kukala@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+    <string name="title_activity_login">LOGIN</string>
+    <!-- Strings related to Fragment_Login -->
+    <string name="prompt_email">email</string>
+    <string name="prompt_password">Password</string>
+    <string name="listar">LISTAR</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="fecha">Fecha</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="titlulo_pickers">Tipo de Comida</string>
+    <string name="formato_fecha">dd/mm/yyyy</string>
+    <string name="formato_cantidad">Cantidad (int)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seleccione_un_alimento">Seleccione un alimento</string>
+    <string name="title_login">LOGIN</string>
+    <string name="nav_header_hola">Hola</string>
+
+</resources>
+
+
+
